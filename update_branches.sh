@@ -4,3 +4,5 @@ if [[ ${CURRENT_BRANCH} == development ]]; then
 elif [[ ${CURRENT_BRANCH} == master ]]; then
   ./scripts/master.sh
 fi
+
+echo "END"
